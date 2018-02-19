@@ -1,0 +1,23 @@
+{
+  "name": "create-react-component",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "test:visual:update": "rm -rf __visual__reference/ && npm run test",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "blink-diff": "^1.0.13",
+    "pixelmatch": "^4.0.2",
+    "pngjs": "^3.3.2",
+    "puppeteer": "^1.1.0"
+  }
+}
